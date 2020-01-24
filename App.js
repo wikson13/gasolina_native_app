@@ -7,22 +7,20 @@
  */
 
 import React from 'react';
-import {
-  StyleSheet,
-} from 'react-native';
+import {StyleSheet} from 'react-native';
 
-import MainNavigation from './navigation/Navigation'
+import MainNavigation from './navigation/Navigation';
+import MaterialNavigation from './navigation/MaterialNavigation';
 
 const App: () => React$Node = () => {
   return (
     <>
-      <MainNavigation/>
+      <MainNavigation />
+      {/*<MaterialNavigation/>*/}
     </>
   );
 };
 
-const styles = StyleSheet.create({
-
-});
+const styles = StyleSheet.create({});
 
 export default App;
